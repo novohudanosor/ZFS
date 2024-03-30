@@ -18,3 +18,4 @@
 6.  Запрос сразу всех параметром файловой системы: ``` zfs get all otus ```
 7.  С помощью команд можно уточнить конкретный параметр системы: ``` zfs get available otus ``` ``` zfs get readonly otus ``` ``` zfs get recordsize otus ```  ``` zfs get compression otus ``` ``` zfs get checksum otus ```
 8.  ![alt text](./Pictures/5.png)
+## Работа со снапшотом, поиск сообщения от преподавателя
