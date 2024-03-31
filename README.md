@@ -19,3 +19,8 @@
 7.  С помощью команд можно уточнить конкретный параметр системы: ``` zfs get available otus ``` ``` zfs get readonly otus ``` ``` zfs get recordsize otus ```  ``` zfs get compression otus ``` ``` zfs get checksum otus ```
 8.  ![alt text](./Pictures/5.png)
 ## Работа со снапшотом, поиск сообщения от преподавателя
+1. качаем файл, указанный в задании:  ``` wget -O otus_task2.file --no-check-certificate https://drive.usercontent.google.com/download?id=1wgxjih8YZ-cqLqaZVa0lA3h3Y029c3oI&export=download ```
+2. Восстановим файловую систему из снапшота:   ``` zfs receive otus/test@today < otus_task2.file ```
+3. Ищем **“secret_message”**    ``` find /otus/test -name "secret_message" ```
+4. ![alt text](./Pictures/6.png)
+### Вывод команды- ссылка на курс.  
